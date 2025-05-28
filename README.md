@@ -2,10 +2,10 @@
 
 **Proyecto educativo** replicando la interfaz de [apple.com](https://www.apple.com) para practicar maquetación web, CSS moderno y responsive design.  
 
-![Captura de pantalla del proyecto](screenshot.png) *(*Reemplaza con tu imagen*)*
+![Captura de pantalla del proyecto](screenshot.png)
 
 ## 🚀 Demo en vivo  
-🔗 [Ver demo](https://tuusuario.github.io/apple-website-clone/) *(Si usas GitHub Pages)*  
+🔗 [Ver demo]([https://tuusuario.github.io/apple-website-clone/](https://earnest-strudel-7f979b.netlify.app/))
 
 ## 📌 Características  
 - **HTML semántico** (header, nav, sections, footer)  
