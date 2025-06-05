@@ -60,22 +60,100 @@ body {
 /* Product Grid */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin: 40px 0;
 }
 
 .product-item {
+    background: #f5f5f7;
+    border-radius: 20px;
+    padding: 32px 24px 0 24px;
+    min-height: 350px;
+    position: relative;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 30%; /* Ajusta según el tamaño de la imagen */
+}
+
+.product-item .product-img {
+    width: 80%;
+    max-width: 350px;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+.product-item.destacado .product-info {
     text-align: center;
-    padding: 40px;
-    background-color: #f5f5f7;
+}
+
+.cta-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: #0071e3;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background: #005bb5;
+}
+
+.btn-outline {
+    border: 2px solid #0071e3;
+    color: #0071e3;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 500;
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-outline:hover {
+    background: #0071e3;
+    color: #fff;
+}
+
+.watch-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.watch-series {
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.watch-desc {
+    margin: 10px 0;
+    font-size: 19px;
+}
+
+.air {
+    font-family: 'SF Pro Display', Arial, sans-serif;
+    font-style: italic;
+    color: #0071e3;
 }
 
 /* Links */
-.cta-links {
-    margin-top: 20px;
-}
-
 #more_info {
     background-color: #0071e3;
     color: white;
@@ -95,4 +173,57 @@ body {
     font-size: 16px;
     font-weight: 500;
     
+}
+
+/* Fondo específico para cada producto */
+.watch-bg {
+    background-size: 100% auto;
+    background-image: url('assets/images/products/apple-watch-series/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg');
+}
+.tradein-bg {
+    background-size: 100% auto;
+    background-image: url('assets/images/products/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small_2x.jpg');
+}
+.college-bg {
+    background-size: 100% auto;
+    background-image: url('assets/images/products/college-students/promo_college_students__bxqdcoxgjzw2_large.jpg');
+}
+.ipadair-bg {
+    padding-bottom: 220px;
+    background-image: url('assets/images/products/ipad-air/promo_ipad_air__bfbxzvw65c02_large.jpg');
+    
+}
+.award-bg {
+    background-image: url('assets/images/products/apple-desing-awards/promo_design_awards__et699h3qz84m_large.jpg');
+    background-size: 100% auto;
+}
+.card-bg {
+    background-image: url('assets/images/products/apple-card/promo_apple_card__5cm7draujpey_large.jpg');
+    background-size: 100% auto;
+}
+
+.product-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-title-img {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 220px;
+    height: auto;
+}
+
+.product-subtitle {
+    font-size: 18px;
+    color: #1d1d1f;
+    margin-bottom: 18px;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+
+/* Arreglo temporal para el ipad air */
+.ipadair-bg .product-info {
+    margin-bottom: 120px;
 }
