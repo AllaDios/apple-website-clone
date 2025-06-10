@@ -31,9 +31,14 @@ body {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 100px 0;
-    background: linear-gradient(to bottom, #dff0fb, #f9fbfd);
+    padding: 120px 0 20px 0; /* Ajusta el padding para posicionar el texto y la imagen */
     color: #1d1d1f;
+    min-height: 950px; /* Ajusta la altura mínima para una imagen más grande y un buen espaciado */
+    position: relative; /* Para posicionar la imagen */
+    background-image: url('assets/images/hero/macbook-air/hero_macbook_air_avail__fpm99qgohx2e_largetall.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
 
 .hero h1 {
@@ -46,16 +51,8 @@ body {
     font-size: 28px;
     font-weight: 400;
     padding: 2px 0;
+    color: #424245;
 }
-
-#macbook_air {
-    padding: 50px 0;
-    margin: 30px auto;
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
 
 /* Product Grid */
 .product-grid {
@@ -172,7 +169,6 @@ body {
     border-radius: 999px;
     font-size: 16px;
     font-weight: 500;
-    
 }
 
 /* Fondo específico para cada producto */
