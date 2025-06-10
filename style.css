@@ -39,6 +39,8 @@ body {
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
+    margin: 0px 20px 40px 20px; /* Espaciado entre secciones hero */
+    border-radius: 25px; /* Borde redondeado para cada hero */
 }
 
 .hero h1 {
@@ -52,6 +54,36 @@ body {
     font-weight: 400;
     padding: 2px 0;
     color: #424245;
+}
+
+.hero-wwdc25 {
+    background-image: url('assets/images/hero/wwdc25/hero_wwdc_refresh__gcykri4dfwq6_largetall.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-wwdc25 h1,
+.hero-wwdc25 h2 {
+    color: #1d1d1f;
+}
+
+.hero-wwdc25 .cta-links {
+    margin-top: auto;
+    margin-bottom: 60px;
+}
+
+.hero-iphonefamily {
+    background-image: url('assets/images/hero/iphone-family/hero_iphone_family__fuz5j2v5xx6y_largetall.jpg');
+    color: #1d1d1f;
+}
+
+.hero-iphonefamily h1,
+.hero-iphonefamily h2 {
+    color: #1d1d1f;
+}
+
+.hero-iphonefamily .cta-links {
+    margin-bottom: 60px;
 }
 
 /* Product Grid */
