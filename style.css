@@ -185,7 +185,7 @@ body {
     background-image: url('assets/images/products/college-students/promo_college_students__bxqdcoxgjzw2_large.jpg');
 }
 .ipadair-bg {
-    padding-bottom: 220px;
+    padding-bottom: 280px; /* Ajustado para un mejor espaciado con la imagen */
     background-image: url('assets/images/products/ipad-air/promo_ipad_air__bfbxzvw65c02_large.jpg');
     
 }
@@ -220,6 +220,4 @@ body {
 
 
 /* Arreglo temporal para el ipad air */
-.ipadair-bg .product-info {
-    margin-bottom: 120px;
-}
+/* Removido el margin-bottom para un manejo de espaciado más limpio en .ipadair-bg */
