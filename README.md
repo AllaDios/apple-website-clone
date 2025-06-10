@@ -5,7 +5,7 @@
 ![Captura de pantalla del proyecto](screenshot.png)
 
 ## 🚀 Demo en vivo  
-🔗 [Ver demo](https://earnest-strudel-7f979b.netlify.app/)
+🔗 [Ver demo](https://alladios.github.io/apple-website-clone/)
 
 ## 📌 Características  
 - **HTML semántico** (header, nav, sections, footer)  
